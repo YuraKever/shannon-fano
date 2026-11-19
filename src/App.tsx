@@ -3,7 +3,7 @@ import { TreeView } from './TreeView'
 import { computeStats, parseText, shannonFano, showChar, uniformCodes, type TreeNode } from './shannonFano'
 
 const DEFAULT_TEXT =
-  'Осінній вітер зриває останні жовті листки зі старих дерев. Над тихим містом опускаються густі вечірні сутінки, і в затишних вікнах будинків починають тихо спалахувати теплі вогники домашнього світла.'
+  'Осінній вітер зриває останні жовті листки зі старих дерев. Над тихим містом опускаються густі вечірні сутінки, і в затишних вікнах будинків починають тихо спалахувати теплі вогники домашнього світла. '
 
 const group = (symbols: { char: string }[]) => `{ ${symbols.map((s) => showChar(s.char)).join(' ')} }`
 
